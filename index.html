@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Como abrir una ventana modal con CSS en HTML">
+    <meta name="keywords" content="ventana modal, modal css, abrir ventana en css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+    <title>Ejemplo de Ventana Modal</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <h3>Ejemplo de ventanas modal</h3>
+      <section class="main-container-section">
+        <!-- Botón para abrir el elemento modal haciendo uso de un evento onclick para invocar al metodo openModal() escrito en actions.js -->
+        <button class="button-primary" type="button" onclick="openModal('modal-xl', 'close-xl');">Modal XL</button>
+        <!-- Elemento modal de tamaño extra largo -->
+        <div class="modal" id="modal-xl">
+          <div class="modal-container xl">
+            <div class="modal-header">
+              <span id="close-xl"><i class="fa fa-times"></i></span>
+              <h3>Example Modal Extra Large XL</h3>
+            </div>
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main-container-section">
+        <button class="button-primary" type="button" onclick="openModal('modal-lg', 'close-lg');">Modal LG</button>
+        <!-- Elemento modal de tamaño largo -->
+        <div class="modal" id="modal-lg">
+          <div class="modal-container lg">
+            <div class="modal-header">
+              <span id="close-lg"><i class="fa fa-times"></i></span>
+              <h3>Example Modal Large LG</h3>
+            </div>
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main-container-section">
+        <button class="button-primary" type="button" onclick="openModal('modal-md', 'close-md');">Modal MD</button>
+        <!-- Elemento modal de tamaño mediano -->
+        <div class="modal" id="modal-md">
+          <div class="modal-container md">
+            <div class="modal-header">
+              <span id="close-md"><i class="fa fa-times"></i></span>
+              <h3>Example Modal Middle MD</h3>
+            </div>
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main-container-section">
+        <button class="button-primary" type="button" onclick="openModal('modal-sm', 'close-sm');">Modal SM</button>
+        <!-- Elemento modal de tamaño pequeño -->
+        <div class="modal" id="modal-sm">
+          <div class="modal-container sm">
+            <div class="modal-header">
+              <span id="close-sm"><i class="fa fa-times"></i></span>
+              <h3>Example Modal Small SM</h3>
+            </div>
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" type="text/javascript" crossorigin="anonymous"></script>
+    <script src="./assets/js/actions.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
