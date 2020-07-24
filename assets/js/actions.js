@@ -2,7 +2,11 @@
   Oscar Angel Espinoza Reyes
   -------------------------------------
   GitHub: https://github.com/oscar-er/
+<<<<<<< HEAD
   Web: https://oscarreyes.alwaysdata.net
+=======
+  Web: https://oscarreyes.alwaysdata.net/
+>>>>>>> d02d5f115910bb269a55d3ec2ec293adfac79878
 */
 
 
